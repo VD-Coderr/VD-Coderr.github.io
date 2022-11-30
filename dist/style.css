@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+:root {
+  --text-hero: 48px 900 #F9FAF8; /* Hero main text */
+  --text-secondary: 18px #E5E7EB; /* Hero secondary text, Header link text */
+  --text-logo: 24px #F9FAF8; /* Header Logo text */
+  --text-header-info: 36x 900 #1F2937; /* Information header text */
+  --text-quote: 36px light italic #1F2937; /* Quote text */
+}
+
+:root {
+  --background-dark: #1F2937; /* Hero and footer*/
+  --color-cta: #3882F6; /* Button color, call to action background color */
+  --color-quote-background: #E5E7EB; /* Quote section background color */
+}
+
+body {
+  background-color: var(--test);
+}/*# sourceMappingURL=style.css.map */
