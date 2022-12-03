@@ -1,0 +1,30 @@
+
+/* Hero main text */
+@mixin text_hero{
+  font-size: 3rem;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+/* Hero secondary text, Header link text */
+@mixin text_secondary {
+  font-size: 1.125rem;
+  color: #E5E7EB;
+}
+/* Header Logo text */
+@mixin text_logo {
+  font-size: 1.5rem;
+  color: #F9FAF8;
+}
+/* Information header text */
+@mixin text_header_info {
+  font-size: 2.25rem;
+  font-weight: 900;
+  color: #1F2937;
+}
+ /* Quote text */
+@mixin text_quote {
+  font-size: 2.25rem;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1F2937;
+}
