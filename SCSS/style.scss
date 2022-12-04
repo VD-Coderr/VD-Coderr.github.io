@@ -9,7 +9,7 @@ body{
 }
 
 // Header
-.landing_page{
+.header{
   display: flex;
   flex-direction: column;
   background-color: var(--color-background-dark);
@@ -79,6 +79,7 @@ header ul li a{
   padding: 0.5rem 2rem;
   border-radius: 10px;
   border-style: none;
+  cursor: pointer;
 }
 
 // Categories section
@@ -126,6 +127,7 @@ header ul li a{
   background-color: var(--color-quote-background);
   width: 100%;
   height: 13rem;
+  margin-bottom: 4rem;
 }
 
 .section_quote div{
@@ -143,4 +145,40 @@ header ul li a{
   font-size: 1.5rem;
   font-weight: 700;
   align-self: flex-end;
+}
+
+// Section call to action
+.section_cta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  background-color: var(--color-cta);
+  width: 80%;
+  height: 10rem;
+  border-radius: 15px;
+  margin-bottom: 4rem;
+  color: #E5E7EB;
+  padding: 0 3rem;
+}
+
+.text_cta h5{
+  font-size: 2.25rem;
+  padding-bottom: 0.5rem;
+}
+
+.btn.cta{
+  align-self: center;
+  border: 1px solid #E5E7EB;
+}
+
+// Footer
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  background-color: var(--color-background-dark);
+  color: #E5E7EB;
 }
