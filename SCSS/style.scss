@@ -100,6 +100,7 @@ header ul li a{
   display: flex;
   width: 100%;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .col {
   display: flex;
