@@ -116,13 +116,16 @@ header ul li a {
 
 .btn {
   align-self: flex-start;
-  font-size: 1.125rem;
-  color: #E5E7EB;
   background-color: var(--color-cta);
   padding: 0.5rem 2rem;
   border-radius: 10px;
   border-style: none;
   cursor: pointer;
+}
+
+.btn a {
+  font-size: 1.125rem;
+  color: #E5E7EB;
 }
 
 .section_categories {

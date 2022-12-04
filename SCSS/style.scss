@@ -74,12 +74,15 @@ header ul li a{
 
 .btn {
   align-self: flex-start;
-  @include text_secondary;
   background-color: var(--color-cta);
   padding: 0.5rem 2rem;
   border-radius: 10px;
   border-style: none;
   cursor: pointer;
+}
+
+.btn a{
+  @include text_secondary;
 }
 
 // Categories section
